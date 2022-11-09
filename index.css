@@ -41,9 +41,9 @@ body{
 }
 .in_div{
     display: flex;
-    width:50%;
+    width:100%;
     text-align: center;
-    background-color:rgba(179, 255, 0, 0.755);
+    background-color:rgba(173, 177, 164, 0.755);
     border-radius: 90px;
 }
 
