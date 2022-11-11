@@ -41,7 +41,7 @@ body{
 }
 .in_div{
     display: flex;
-    width:none;
+    width:0px;
     text-align: center;
     background-color:rgba(173, 177, 164, 0.755);
     border-radius: 90px;
