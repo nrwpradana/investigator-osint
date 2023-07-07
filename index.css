@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 .headtitle{
-    margin-top: 100px;
+    margin-top: 130px;
     
 }
 .headtitle h1{
@@ -15,7 +15,7 @@ body{
 }
 .container{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: black;
     height:90px;
     width:100%;
     align-items: center;
@@ -26,13 +26,13 @@ body{
 }
 .search{
     object-fit: contain;
-    width:100px;
+    width:30px;
     padding:0 10px;
 }
 .input{
     
     width:100%;
-    margin-left: 100%;   /*  change here */
+    margin-left: 20%;   /*  change here */
     
 }
 .head_button{
@@ -40,19 +40,18 @@ body{
     margin-right: 90px;
 }
 .in_div{
-    display: center;
-    width:100px;
+    display: flex;
+    width:50%;
     text-align: center;
-    background-color:rgba(173, 177, 164, 0.755);
+    background-color:rgb(255, 0, 0);
     border-radius: 90px;
-    align-items: center;
 }
 
 .index_input{
     height:30px;
-    width:100%;
-    outline: 10px;
-    border: 10px;
+   
+    outline: none;
+    border:none;
     padding: 10px;
     font-size: 20px;
     text-align: center;
@@ -72,7 +71,7 @@ body{
     text-align: right;
     margin-top: -23px;
     font-size: 20px;   
-    background-color: rgba(179, 255, 0, 0.755);
+    background-color: red;
     padding-right:10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -140,6 +139,7 @@ body{
   
   background: linear-gradient(to right, #4d4d4d 0, rgb(255, 255, 255) 10%, #4d4d4d 20%);
   background-position: 0;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s infinite linear;
   animation-fill-mode: forwards;
