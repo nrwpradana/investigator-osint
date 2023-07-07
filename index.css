@@ -14,7 +14,6 @@ body{
     padding:0 360px;
 }
 .container{
-    display: flex;
     background-color: rgba(0, 0, 0, 0.6);
     height:90px;
     width:100%;
