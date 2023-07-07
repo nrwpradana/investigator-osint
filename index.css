@@ -40,7 +40,7 @@ body{
 }
 .in_div{
     display: center;
-    width:100px;
+    width:500px;
     text-align: center;
     background-color:rgba(173, 177, 164, 0.755);
     border-radius: 90px;
